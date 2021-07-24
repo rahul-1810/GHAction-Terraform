@@ -1,7 +1,7 @@
 provider "aws" {
     region = "ap-south-1"
-    AWS_ACCESS_KEY_ID = ${{ secrets.AWS_ACCESS_KEY }}
-    AWS_SECRET_KEY_ID = ${{ secrets.AWS_SECRET_KEY }}
+    access_key = "AKIAY6VC3YEJM3MZJK3O"
+    secret_key = "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"
 }
 
 resource "aws_instance" "os" {
