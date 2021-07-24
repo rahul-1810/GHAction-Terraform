@@ -1,7 +1,10 @@
+terraform {
+    required_version = ">=0.12.24"
+}
+
+
 provider "aws" {
     region = "ap-south-1"
-    access_key = "AKIAY6VC3YEJM3MZJK3O"
-    secret_key = "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"
 }
 
 resource "aws_instance" "os" {
